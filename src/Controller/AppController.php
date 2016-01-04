@@ -40,7 +40,7 @@ class AppController extends Controller
      *
      * @var bool
      */
-    protected $isAdmin = false;
+    protected $isAdmin = true;
 
     /**
      * A list of actions where the Crud.SearchListener
