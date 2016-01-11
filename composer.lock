@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "14686708e8f9cd3294566a890c35f04c",
-    "content-hash": "c7207a619b84e9ea9f9b89920834e302",
+    "hash": "2f65677a7cce2eeed1171e2e3446cc03",
+    "content-hash": "86479d6875f04e12debdfc7f02218802",
     "packages": [
         {
             "name": "airbrake/phpbrake",
@@ -223,16 +223,16 @@
         },
         {
             "name": "cakephp/cakephp",
-            "version": "3.1.6",
+            "version": "3.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/cakephp.git",
-                "reference": "22e7a7bb345e38ad5ffe2bb9c64364da822713e9"
+                "reference": "a91f654a19802cb4f6cd60ff91bb062b782bc99c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/22e7a7bb345e38ad5ffe2bb9c64364da822713e9",
-                "reference": "22e7a7bb345e38ad5ffe2bb9c64364da822713e9",
+                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/a91f654a19802cb4f6cd60ff91bb062b782bc99c",
+                "reference": "a91f654a19802cb4f6cd60ff91bb062b782bc99c",
                 "shasum": ""
             },
             "require": {
@@ -289,7 +289,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-12-23 16:07:38"
+            "time": "2016-01-09 23:14:54"
         },
         {
             "name": "cakephp/migrations",
@@ -507,6 +507,54 @@
             "time": "2015-12-26 08:29:41"
         },
         {
+            "name": "friendsofcake/crud-users",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfCake/crud-users.git",
+                "reference": "4ec4397e5755156d71613de6b62f8fa009e28afe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfCake/crud-users/zipball/4ec4397e5755156d71613de6b62f8fa009e28afe",
+                "reference": "4ec4397e5755156d71613de6b62f8fa009e28afe",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/cakephp": "~3.0",
+                "friendsofcake/crud": "~4.0"
+            },
+            "require-dev": {
+                "friendsofcake/cakephp-test-utilities": "dev-master",
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "CrudUsers\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jad Bitar",
+                    "homepage": "http://jadb.io/",
+                    "role": "Author"
+                }
+            ],
+            "description": "Adds basic users support to CakePHP 3 applications that use the Crud plugin.",
+            "homepage": "https://github.com/FriendsOfCake/crud-users",
+            "keywords": [
+                "Users",
+                "cakephp",
+                "crud"
+            ],
+            "time": "2015-12-28 08:48:22"
+        },
+        {
             "name": "friendsofcake/crud-view",
             "version": "0.0.3",
             "source": {
@@ -707,23 +755,23 @@
         },
         {
             "name": "josegonzalez/dotenv",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/josegonzalez/php-dotenv.git",
-                "reference": "fd0b23a62995b800f5c44b720ef3f3ce2f1e545f"
+                "reference": "38a38273b7bdbe38ce0106aea373eae7a4f3125e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/josegonzalez/php-dotenv/zipball/fd0b23a62995b800f5c44b720ef3f3ce2f1e545f",
-                "reference": "fd0b23a62995b800f5c44b720ef3f3ce2f1e545f",
+                "url": "https://api.github.com/repos/josegonzalez/php-dotenv/zipball/38a38273b7bdbe38ce0106aea373eae7a4f3125e",
+                "reference": "38a38273b7bdbe38ce0106aea373eae7a4f3125e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
             "require-dev": {
-                "satooshi/php-coveralls": "dev-master",
+                "satooshi/php-coveralls": "1.*",
                 "squizlabs/php_codesniffer": "2.*"
             },
             "type": "library",
@@ -754,20 +802,20 @@
                 "dotenv",
                 "php"
             ],
-            "time": "2015-12-25 13:30:53"
+            "time": "2016-01-07 07:13:27"
         },
         {
             "name": "josegonzalez/php-error-handlers",
-            "version": "0.0.3",
+            "version": "0.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/josegonzalez/php-error-handlers.git",
-                "reference": "82a3d7cd5f94fecc9ee4118abacc14ad73bbc185"
+                "reference": "6e1bed0c4c953e15ad50f53a40f67d3378445b1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/josegonzalez/php-error-handlers/zipball/82a3d7cd5f94fecc9ee4118abacc14ad73bbc185",
-                "reference": "82a3d7cd5f94fecc9ee4118abacc14ad73bbc185",
+                "url": "https://api.github.com/repos/josegonzalez/php-error-handlers/zipball/6e1bed0c4c953e15ad50f53a40f67d3378445b1e",
+                "reference": "6e1bed0c4c953e15ad50f53a40f67d3378445b1e",
                 "shasum": ""
             },
             "require": {
@@ -776,7 +824,7 @@
                 "cakephp/cakephp": "~3.0",
                 "mindscape/raygun4php": "^1.6",
                 "monolog/monolog": "^1.17",
-                "php": ">=5.4",
+                "php": ">=5.5",
                 "raven/raven": "^0.13.0"
             },
             "require-dev": {
@@ -808,7 +856,7 @@
                 "error",
                 "exception"
             ],
-            "time": "2015-12-26 06:22:12"
+            "time": "2016-01-05 13:45:21"
         },
         {
             "name": "josegonzalez/queuesadilla",
@@ -816,17 +864,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/josegonzalez/php-queuesadilla.git",
-                "reference": "c6c7a9bf17d4c21a3c0dbccfbe170c0c5001e8fa"
+                "reference": "779b175450894e447b3a77f730a2c9c3a782aa92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/josegonzalez/php-queuesadilla/zipball/c6c7a9bf17d4c21a3c0dbccfbe170c0c5001e8fa",
-                "reference": "c6c7a9bf17d4c21a3c0dbccfbe170c0c5001e8fa",
+                "url": "https://api.github.com/repos/josegonzalez/php-queuesadilla/zipball/779b175450894e447b3a77f730a2c9c3a782aa92",
+                "reference": "779b175450894e447b3a77f730a2c9c3a782aa92",
                 "shasum": ""
             },
             "require": {
                 "league/event": "~1.0",
-                "php": ">=5.3.0",
+                "php": ">=5.5.0",
                 "psr/log": "~1.0"
             },
             "require-dev": {
@@ -869,7 +917,7 @@
                 "php",
                 "queue"
             ],
-            "time": "2015-12-17 23:39:51"
+            "time": "2016-01-05 13:49:42"
         },
         {
             "name": "league/climate",
@@ -1490,27 +1538,26 @@
         },
         {
             "name": "robmorgan/phinx",
-            "version": "v0.5.0",
+            "version": "v0.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/robmorgan/phinx.git",
-                "reference": "df8933786806848fbf330f88d69998f29c29d8c4"
+                "reference": "9e41ae609670645546e08e3907a68b3b8fb60f31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/robmorgan/phinx/zipball/df8933786806848fbf330f88d69998f29c29d8c4",
-                "reference": "df8933786806848fbf330f88d69998f29c29d8c4",
+                "url": "https://api.github.com/repos/robmorgan/phinx/zipball/9e41ae609670645546e08e3907a68b3b8fb60f31",
+                "reference": "9e41ae609670645546e08e3907a68b3b8fb60f31",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2",
-                "symfony/config": "~2.7",
-                "symfony/console": "~2.7",
-                "symfony/yaml": "~2.7"
+                "php": ">=5.4",
+                "symfony/config": "~2.8|~3.0",
+                "symfony/console": "~2.8|~3.0",
+                "symfony/yaml": "~2.8|~3.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "3.7.*",
-                "squizlabs/php_codesniffer": "dev-phpcs-fixer"
+                "phpunit/phpunit": "^3.7|^4.0|^5.0"
             },
             "bin": [
                 "bin/phinx"
@@ -1548,20 +1595,20 @@
                 "migrations",
                 "phinx"
             ],
-            "time": "2015-11-30 15:21:12"
+            "time": "2015-12-30 21:16:52"
         },
         {
             "name": "seld/cli-prompt",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/cli-prompt.git",
-                "reference": "fe114c7a6ac5cb0ce76932ae4017024d9842a49c"
+                "reference": "b27db1514f7d7bb7a366ad95d4eb2b17140a0691"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/cli-prompt/zipball/fe114c7a6ac5cb0ce76932ae4017024d9842a49c",
-                "reference": "fe114c7a6ac5cb0ce76932ae4017024d9842a49c",
+                "url": "https://api.github.com/repos/Seldaek/cli-prompt/zipball/b27db1514f7d7bb7a366ad95d4eb2b17140a0691",
+                "reference": "b27db1514f7d7bb7a366ad95d4eb2b17140a0691",
                 "shasum": ""
             },
             "require": {
@@ -1596,30 +1643,30 @@
                 "input",
                 "prompt"
             ],
-            "time": "2015-04-30 20:24:49"
+            "time": "2016-01-09 17:55:27"
         },
         {
             "name": "symfony/config",
-            "version": "v2.8.1",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "17d4b2e64ce1c6ba7caa040f14469b3c44d7f7d2"
+                "reference": "58680a6516a457a6c65044fe33586c4a81fdff01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/17d4b2e64ce1c6ba7caa040f14469b3c44d7f7d2",
-                "reference": "17d4b2e64ce1c6ba7caa040f14469b3c44d7f7d2",
+                "url": "https://api.github.com/repos/symfony/config/zipball/58680a6516a457a6c65044fe33586c4a81fdff01",
+                "reference": "58680a6516a457a6c65044fe33586c4a81fdff01",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9",
-                "symfony/filesystem": "~2.3|~3.0.0"
+                "php": ">=5.5.9",
+                "symfony/filesystem": "~2.8|~3.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -1646,30 +1693,30 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2015-12-26 13:37:56"
+            "time": "2015-12-26 13:39:53"
         },
         {
             "name": "symfony/console",
-            "version": "v2.8.1",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "2e06a5ccb19dcf9b89f1c6a677a39a8df773635a"
+                "reference": "ebcdc507829df915f4ca23067bd59ee4ef61f6c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/2e06a5ccb19dcf9b89f1c6a677a39a8df773635a",
-                "reference": "2e06a5ccb19dcf9b89f1c6a677a39a8df773635a",
+                "url": "https://api.github.com/repos/symfony/console/zipball/ebcdc507829df915f4ca23067bd59ee4ef61f6c3",
+                "reference": "ebcdc507829df915f4ca23067bd59ee4ef61f6c3",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9",
+                "php": ">=5.5.9",
                 "symfony/polyfill-mbstring": "~1.0"
             },
             "require-dev": {
                 "psr/log": "~1.0",
-                "symfony/event-dispatcher": "~2.1|~3.0.0",
-                "symfony/process": "~2.1|~3.0.0"
+                "symfony/event-dispatcher": "~2.8|~3.0",
+                "symfony/process": "~2.8|~3.0"
             },
             "suggest": {
                 "psr/log": "For using the console logger",
@@ -1679,7 +1726,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -1706,7 +1753,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2015-12-22 10:25:57"
+            "time": "2015-12-22 10:39:06"
         },
         {
             "name": "symfony/filesystem",
@@ -1818,25 +1865,25 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.8.1",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "ac84cbb98b68a6abbc9f5149eb96ccc7b07b8966"
+                "reference": "3df409958a646dad2bc5046c3fb671ee24a1a691"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/ac84cbb98b68a6abbc9f5149eb96ccc7b07b8966",
-                "reference": "ac84cbb98b68a6abbc9f5149eb96ccc7b07b8966",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/3df409958a646dad2bc5046c3fb671ee24a1a691",
+                "reference": "3df409958a646dad2bc5046c3fb671ee24a1a691",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9"
+                "php": ">=5.5.9"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -1863,26 +1910,26 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2015-12-26 13:37:56"
+            "time": "2015-12-26 13:39:53"
         }
     ],
     "packages-dev": [
         {
             "name": "cakephp/bake",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/bake.git",
-                "reference": "2ff05455f47db5501966cc247a79b11eb5ea643c"
+                "reference": "c53b197cfa9587b3cbf92d3b82044828c7d02590"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/bake/zipball/2ff05455f47db5501966cc247a79b11eb5ea643c",
-                "reference": "2ff05455f47db5501966cc247a79b11eb5ea643c",
+                "url": "https://api.github.com/repos/cakephp/bake/zipball/c53b197cfa9587b3cbf92d3b82044828c7d02590",
+                "reference": "c53b197cfa9587b3cbf92d3b82044828c7d02590",
                 "shasum": ""
             },
             "require": {
-                "cakephp/cakephp": "3.1.*",
+                "cakephp/cakephp": ">=3.1.0",
                 "php": ">=5.4"
             },
             "require-dev": {
@@ -1911,24 +1958,24 @@
                 "bake",
                 "cakephp"
             ],
-            "time": "2015-12-05 18:55:45"
+            "time": "2015-12-29 19:03:50"
         },
         {
             "name": "cakephp/debug_kit",
-            "version": "3.2.2",
+            "version": "3.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/debug_kit.git",
-                "reference": "61e838edf26fc4df1becf59afb77ba10e5400924"
+                "reference": "5a1f567a36f854c8d4786757d822a9942bd8f5ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/debug_kit/zipball/61e838edf26fc4df1becf59afb77ba10e5400924",
-                "reference": "61e838edf26fc4df1becf59afb77ba10e5400924",
+                "url": "https://api.github.com/repos/cakephp/debug_kit/zipball/5a1f567a36f854c8d4786757d822a9942bd8f5ea",
+                "reference": "5a1f567a36f854c8d4786757d822a9942bd8f5ea",
                 "shasum": ""
             },
             "require": {
-                "cakephp/cakephp": "3.1.*",
+                "cakephp/cakephp": ">=3.1.0 <4.0",
                 "jdorn/sql-formatter": "~1.2"
             },
             "require-dev": {
@@ -1967,7 +2014,7 @@
                 "debug",
                 "kit"
             ],
-            "time": "2015-10-21 19:57:25"
+            "time": "2016-01-05 09:16:54"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",

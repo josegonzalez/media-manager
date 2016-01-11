@@ -33,10 +33,6 @@ class UsersTable extends Table
 
         $this->addBehavior('Timestamp');
 
-        $this->belongsTo('Githubs', [
-            'foreignKey' => 'github_id',
-            'joinType' => 'INNER'
-        ]);
         $this->hasMany('Assets', [
             'foreignKey' => 'user_id'
         ]);
@@ -83,7 +79,6 @@ class UsersTable extends Table
     public function buildRules(RulesChecker $rules)
     {
         $rules->add($rules->isUnique(['email']));
-        $rules->add($rules->existsIn(['github_id'], 'Githubs'));
         return $rules;
     }
 }

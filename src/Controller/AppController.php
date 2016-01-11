@@ -82,6 +82,27 @@ class AppController extends Controller
                 'Crud.Redirect',
             ],
         ]);
+        $this->loadComponent('Auth', [
+            'authenticate' => [
+                'Header' => [
+                    'fields' => [
+                        'username' => 'github_id',
+                    ],
+                    'headers' => [
+                        'username' => Configure::read('Auth.headers.username'),
+                        'name' => Configure::read('Auth.headers.name'),
+                        'email' => Configure::read('Auth.headers.email'),
+                    ]
+                ],
+                'Form' => [
+                    'fields' => [
+                        'username' => 'email',
+                        'password' => 'password',
+                    ]
+                ]
+            ],
+            'authorize' => ['Controller'],
+        ]);
 
         if (in_array($this->request->action, $this->searchActions)) {
             list($plugin, $tableClass) = pluginSplit($this->modelClass);
@@ -101,6 +122,8 @@ class AppController extends Controller
     public function beforeFilter(Event $event)
     {
         parent::beforeFilter($event);
+
+        $this->Auth->allow(['display']);
 
         $this->Crud->on('beforePaginate', function (Event $event) {
             $repository = $event->subject()->query->repository();
@@ -138,5 +161,22 @@ class AppController extends Controller
         if (!array_key_exists('_serialize', $this->viewVars) && $isRest) {
             $this->set('_serialize', true);
         }
+    }
+
+    /**
+     * Check if the provided user is authorized for the request.
+     *
+     * @param array|null $user The user to check the authorization of.
+     *   If empty the user fetched from storage will be used.
+     * @return bool True if $user is authorized, otherwise false
+     */
+    public function isAuthorized($user)
+    {
+        if (!empty($user)) {
+            return true;
+        }
+
+        // Default deny
+        return false;
     }
 }

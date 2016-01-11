@@ -30,4 +30,16 @@ class User extends Entity
         '*' => true,
         'id' => false,
     ];
+
+    /**
+     * Setter for password field.
+     * Automatically hashes incoming passwords
+     *
+     * @param string $password the password to hash
+     * @return string
+     */
+    protected function _setPassword($password)
+    {
+        return (new \Cake\Auth\DefaultPasswordHasher)->hash($password);
+    }
 }

@@ -23,7 +23,8 @@
         "markstory/asset_compress": "3.*",
         "josegonzalez/cakephp-upload": "3.*",
         "josegonzalez/queuesadilla": "dev-master",
-        "josegonzalez/php-error-handlers": "0.*"
+        "josegonzalez/php-error-handlers": "0.*",
+        "friendsofcake/crud-users": "^0.1.0"
     },
     "require-dev": {
         "psy/psysh": "@stable",
