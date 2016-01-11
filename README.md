@@ -1,11 +1,8 @@
-# A CakePHP Application Skeleton
+# media-manager
 
-[![Build Status](https://img.shields.io/travis/josegonzalez/app/master.svg?style=flat-square)](https://travis-ci.org/josegonzalez/app)
-[![License](https://img.shields.io/packagist/l/josegonzalez/app.svg?style=flat-square)](https://packagist.org/packages/josegonzalez/app)
+An opensource asset management tool built in CakePHP. Part of a series of blog posts around building an application using CakePHP.
 
-A fork of the [official skeleton](https://github.com/cakephp/app) for creating applications with [CakePHP](http://cakephp.org) 3.x.
-
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+Further documentation incoming.
 
 ## Installation
 
